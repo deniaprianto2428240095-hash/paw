@@ -1,5 +1,6 @@
 import React from "react";
 import Counter from "./components/Counter";
+import ThemeSwap from "./components/ThemeSwap";
 
 const App = () => {
   return (
@@ -27,6 +28,9 @@ const App = () => {
         Login with Email
       </button>
       <Counter />
+      <div className="p-5">
+        <ThemeSwap/>
+      </div>
     </div>
   );
 };
